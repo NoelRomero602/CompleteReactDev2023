@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Directory from './components/directory/directory.component'
-import './categories.styles.scss'
+
 const App = () =>{
 
 const [categories, setCategories] = useState([ {
@@ -34,7 +34,7 @@ const [categories, setCategories] = useState([ {
 
   return (
     
-    <div className="categories-container">
+    <div >
 
      
       <Directory categories={categories} /> 
